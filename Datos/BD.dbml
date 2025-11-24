@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="db_Plantilla" Class="BDDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-LIE9FG3\SQLEXPRESS;Initial Catalog=db_Plantilla;Integrated Security=True;Trust Server Certificate=True" SettingsObjectName="Datos.Properties.Settings" SettingsPropertyName="db_PlantillaConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Heroes" Member="Heroes">
+    <Type Name="Heroes">
+      <Column Name="HeroID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="RealName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Alias" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Abilities" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="History" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="Seasons" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ActorName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.ActualizarHeroe" Method="ActualizarHeroe">
+    <Parameter Name="valor1" Type="System.Int32" DbType="Int" />
+    <Parameter Name="valor2" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="valor3" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="valor4" Type="System.String" DbType="NVarChar(500)" />
+    <Parameter Name="valor5" Type="System.String" DbType="NVarChar(1000)" />
+    <Parameter Name="valor6" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="valor7" Type="System.String" DbType="NVarChar(100)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.EliminarHeroe" Method="EliminarHeroe">
+    <Parameter Name="valor1" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.InsertarHeroe" Method="InsertarHeroe">
+    <Parameter Name="valor1" Type="System.Int32" DbType="Int" />
+    <Parameter Name="valor2" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="valor3" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="valor4" Type="System.String" DbType="NVarChar(500)" />
+    <Parameter Name="valor5" Type="System.String" DbType="NVarChar(1000)" />
+    <Parameter Name="valor6" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="valor7" Type="System.String" DbType="NVarChar(100)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.ListarHeroes" Method="ListarHeroes">
+    <ElementType Name="ListarHeroesResult">
+      <Column Name="HeroID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="RealName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Alias" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Abilities" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="History" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="Seasons" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ActorName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.ListarHeroes_Filtro" Method="ListarHeroes_Filtro">
+    <Parameter Name="Valor" Parameter="valor" Type="System.String" DbType="VarChar(40)" />
+    <ElementType Name="ListarHeroes_FiltroResult">
+      <Column Name="HeroID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="RealName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Alias" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Abilities" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="History" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="Seasons" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ActorName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.ObtenerHeroe_ID" Method="ObtenerHeroe_ID">
+    <Parameter Name="valor" Type="System.Int32" DbType="Int" />
+    <ElementType Name="ObtenerHeroe_IDResult">
+      <Column Name="HeroID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="RealName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Alias" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Abilities" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="History" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="Seasons" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ActorName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

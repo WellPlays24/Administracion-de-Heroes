@@ -1,0 +1,10 @@
+P:\Proyectos Personales\Plantilla de Proyecto de PA\Plantilla\Datos\bin\Debug\Datos.dll.config
+P:\Proyectos Personales\Plantilla de Proyecto de PA\Plantilla\Datos\bin\Debug\Datos.dll
+P:\Proyectos Personales\Plantilla de Proyecto de PA\Plantilla\Datos\bin\Debug\Datos.pdb
+P:\Proyectos Personales\Plantilla de Proyecto de PA\Plantilla\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+P:\Proyectos Personales\Plantilla de Proyecto de PA\Plantilla\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+P:\Proyectos Personales\Plantilla de Proyecto de PA\Plantilla\Datos\obj\Debug\Datos.dll
+P:\Proyectos Personales\Plantilla de Proyecto de PA\Plantilla\Datos\obj\Debug\Datos.pdb
+P:\Proyectos Personales\Plantilla de Proyecto de PA\Plantilla\Datos\bin\Debug\Entidades.dll
+P:\Proyectos Personales\Plantilla de Proyecto de PA\Plantilla\Datos\bin\Debug\Entidades.pdb
+P:\Proyectos Personales\Plantilla de Proyecto de PA\Plantilla\Datos\obj\Debug\Datos.csproj.Up2Date
