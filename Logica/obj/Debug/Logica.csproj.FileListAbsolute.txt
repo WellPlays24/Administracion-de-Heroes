@@ -1,0 +1,12 @@
+P:\Proyectos Personales\Plantilla de Proyecto de PA\Plantilla\Logica\bin\Debug\Logica.dll
+P:\Proyectos Personales\Plantilla de Proyecto de PA\Plantilla\Logica\bin\Debug\Logica.pdb
+P:\Proyectos Personales\Plantilla de Proyecto de PA\Plantilla\Logica\bin\Debug\Datos.dll
+P:\Proyectos Personales\Plantilla de Proyecto de PA\Plantilla\Logica\bin\Debug\Entidades.dll
+P:\Proyectos Personales\Plantilla de Proyecto de PA\Plantilla\Logica\bin\Debug\Datos.pdb
+P:\Proyectos Personales\Plantilla de Proyecto de PA\Plantilla\Logica\bin\Debug\Datos.dll.config
+P:\Proyectos Personales\Plantilla de Proyecto de PA\Plantilla\Logica\bin\Debug\Entidades.pdb
+P:\Proyectos Personales\Plantilla de Proyecto de PA\Plantilla\Logica\obj\Debug\Logica.csproj.AssemblyReference.cache
+P:\Proyectos Personales\Plantilla de Proyecto de PA\Plantilla\Logica\obj\Debug\Logica.csproj.CoreCompileInputs.cache
+P:\Proyectos Personales\Plantilla de Proyecto de PA\Plantilla\Logica\obj\Debug\Logica.csproj.Up2Date
+P:\Proyectos Personales\Plantilla de Proyecto de PA\Plantilla\Logica\obj\Debug\Logica.dll
+P:\Proyectos Personales\Plantilla de Proyecto de PA\Plantilla\Logica\obj\Debug\Logica.pdb
