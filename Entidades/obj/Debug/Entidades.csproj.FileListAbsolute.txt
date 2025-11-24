@@ -1,0 +1,6 @@
+P:\Proyectos Personales\Plantilla de Proyecto de PA\Plantilla\Entidades\bin\Debug\Entidades.dll
+P:\Proyectos Personales\Plantilla de Proyecto de PA\Plantilla\Entidades\bin\Debug\Entidades.pdb
+P:\Proyectos Personales\Plantilla de Proyecto de PA\Plantilla\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+P:\Proyectos Personales\Plantilla de Proyecto de PA\Plantilla\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+P:\Proyectos Personales\Plantilla de Proyecto de PA\Plantilla\Entidades\obj\Debug\Entidades.dll
+P:\Proyectos Personales\Plantilla de Proyecto de PA\Plantilla\Entidades\obj\Debug\Entidades.pdb
